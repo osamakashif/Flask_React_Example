@@ -1,6 +1,10 @@
 # Import flask and datetime module for showing date and time
 from flask import Flask
 import datetime
+import socket
+
+hostname = socket.gethostname()
+ip_addr = socket.gethostbyname(hostname)
   
 x = datetime.datetime.now()
   
@@ -22,4 +26,4 @@ def get_date():
       
 # Running app
 if __name__ == '__main__':
-    server.run(debug=True)
+    server.run(host=ip_addr, port=5000, debug=True) # Host IP address needs to match with that of React Native Expo app.
