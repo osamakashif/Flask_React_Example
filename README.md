@@ -36,7 +36,6 @@ Assuming all the setup is correct and the IP is set up in the mobile server file
 4. Go to the `flask_tester` directory and run `npm start` (for the web version).
 5. Go to the `FlaskReactNativeApp` directory and run `npm start`, then scan the QR code on the Expo app. If you are using an emulator, run `npm run android` for an Android emulator, with the emulator already running (for the mobile version).
 
-
 ## Screenshots
 
 Web (ReactJS):
