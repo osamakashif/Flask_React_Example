@@ -7,6 +7,8 @@ There is one main server: `server.py`
 
 This is accessed by `react_web_localhost_server.py` for the web/ReactJS version of the application, and by `react_native_server.py` for the mobile/React Native (Expo) version of the application. The `ip_addr` variable in `react_native_server.py` may need to be specified as the IP address given when running `npm start` in the React Native directory.
 
+![image](https://user-images.githubusercontent.com/63721736/205913933-c64d4406-b933-4399-b373-70870a27035b.png)
+
 The web version utilisises the proxy being set to localhost in the web version's `package.json` file.
 
 The mobile version has to adjust to the IP address to accomodate how the network works for connecting using Expo.
