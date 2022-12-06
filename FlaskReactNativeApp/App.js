@@ -9,8 +9,6 @@ const api = (typeof manifest.packagerOpts === `object`) && manifest.packagerOpts
   ? manifest.debuggerHost.split(`:`).shift().concat(`:5000`)
   : `api.example.com`
 
-  // const uri = `http://${manifest.debuggerHost.split(':').shift()}:5000`;
-
 function getDay(num) {
   if (num === 0) {
     return "Monday"
